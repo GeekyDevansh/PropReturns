@@ -109,12 +109,12 @@ const Filters = ({darkMode}) => {
           </motion.button>
         {showSale && (
 
-<div className=" absolute mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+<div className=" absolute mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
 <div className="py-1" role="none">
 
-<a  onClick={handleSale} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabindex="-1" id="menu-item-0" value="For Lease" >For Sale</a>
+<a  onClick={handleSale} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabIndex="-1" id="menu-item-0" value="For Lease" >For Sale</a>
   
-  <a  onClick={handleSale} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabindex="-1" id="menu-item-0" value="For Lease" >For Lease</a>
+  <a  onClick={handleSale} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabIndex="-1" id="menu-item-0" value="For Lease" >For Lease</a>
   
   
   
@@ -136,13 +136,13 @@ const Filters = ({darkMode}) => {
           </motion.button>
           {showType && (
 
-<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0 ml-20 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0 ml-20 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
 <div className="py-1" role="none">
 
-<a onClick={handleType} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">House</a>
+<a onClick={handleType} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">House</a>
   
-  <a onClick={handleType} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">Land</a>
-  <a onClick={handleType} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-1">Office</a>
+  <a onClick={handleType} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">Land</a>
+  <a onClick={handleType} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-1">Office</a>
   
   
   
@@ -161,13 +161,13 @@ const Filters = ({darkMode}) => {
           </motion.button>
           {showMinPrice && (
 
-<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0 mr-12 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0 mr-12 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
 <div className="py-1" role="none">
 
-<a onClick={handleMinPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">$500k</a>
+<a onClick={handleMinPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">$500k</a>
   
-  <a onClick={handleMinPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">$600k</a>
-  <a onClick={handleMinPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-1">$700k</a>
+  <a onClick={handleMinPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">$600k</a>
+  <a onClick={handleMinPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-1">$700k</a>
   
   
   
@@ -186,12 +186,12 @@ const Filters = ({darkMode}) => {
           </motion.button>
           {showMaxPrice && (
 
-<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0  ml-24 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0  ml-24 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
 <div className="py-1" role="none">
   
-<a onClick={handleMaxPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">$700k</a>
-  <a onClick={handleMaxPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">$800k</a>
-  <a onClick={handleMaxPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-1">$900k</a>
+<a onClick={handleMaxPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">$700k</a>
+  <a onClick={handleMaxPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">$800k</a>
+  <a onClick={handleMaxPrice} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-1">$900k</a>
   
   
   
@@ -210,12 +210,12 @@ const Filters = ({darkMode}) => {
           </motion.button>
           {showFloorArea && (
 
-<div onClick={handleArea} className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0  mr-5 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+<div onClick={handleArea} className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0  mr-5 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
 <div className="py-1" role="none">
   
-  <a onClick={handleArea} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">50</a>
-  <a onClick={handleArea} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-0">60</a>
-  <a onClick={handleArea} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabindex="-1" id="menu-item-1">70</a>
+  <a onClick={handleArea} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">50</a>
+  <a onClick={handleArea} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-0">60</a>
+  <a onClick={handleArea} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer" role="menuitem" tabIndex="-1" id="menu-item-1">70</a>
   
   
   
@@ -234,12 +234,12 @@ const Filters = ({darkMode}) => {
           </motion.button>
         {showSaleN && (
 
-<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0 ml-16 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+<div className=" absolute mt-2 lg:w-56 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30 lg:m-0 ml-16 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
 <div className="py-1" role="none">
 
-<a  onClick={handleSaleN} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabindex="-1" id="menu-item-0" value="For Lease" >For Sale</a>
+<a  onClick={handleSaleN} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabIndex="-1" id="menu-item-0" value="For Lease" >For Sale</a>
   
-  <a  onClick={handleSaleN} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabindex="-1" id="menu-item-0" value="For Lease" >For Lease</a>
+  <a  onClick={handleSaleN} className="text-gray-700 block px-4 py-2 text-sm rounded hover:bg-gray-200 cursor-pointer " role="menuitem" tabIndex="-1" id="menu-item-0" value="For Lease" >For Lease</a>
   
   
   

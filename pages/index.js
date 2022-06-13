@@ -75,7 +75,7 @@ export default function Home({darkMode,posts}) {
             </span>
             <span onClick={heartClick}  className=" cursor-pointer absolute right-2 top-2 inline-block bg-white rounded-lg pt-2 px-2 text-sm font-semibold ">
               {" "}
-              {like?<Image src={heartr}/>:<Image src={heart}/>}
+              {like?<Image src={heartr} alt='heart' />:<Image src={heart} alt='heart' />}
             </span>
             <div className="px-6 py-4">
               <div className={`font-bold text-lg mb-2 ${darkMode?'text-[#f9f9fa]':'text-black'} `}>$ 708 910</div>
@@ -87,15 +87,15 @@ Illinois 85486
             <div className="lg:px-5 lg:pt-4 lg:pb-2 lg:ml-2 ml-20">
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2 ">
                 {" "}
-                <Image src={bed} /> 2
+                <Image src={bed} alt='bed' /> 2
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2">
                 {" "}
-                <Image src={bathtub} /> 1
+                <Image src={bathtub} alt='img' /> 1
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-1 mb-2">
                 {" "}
-                <Image src={tape} /> 60 m&sup2;
+                <Image src={tape} alt='tape' /> 60 m&sup2;
               </span>
             </div>
           </motion.div>
@@ -117,7 +117,7 @@ Illinois 85486
             </span>
             <span  onClick={heartClick2} className=" cursor-pointer absolute right-2 top-2 inline-block bg-white rounded-lg pt-2 px-2 text-sm font-semibold ">
               {" "}
-              {like2?<Image src={heartr}/>:<Image src={heart}/>}
+              {like2?<Image src={heartr} alt='img' />:<Image src={heart} alt='img' />}
             </span>
 
             <div className="px-6 py-4">
@@ -130,15 +130,15 @@ Illinois 85486
             <div className="lg:px-5 lg:pt-4 lg:pb-2 lg:ml-2 ml-20 ">
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2">
                 {" "}
-                <Image src={bed} /> 2
+                <Image src={bed} alt='bed' /> 2
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2">
                 {" "}
-                <Image src={bathtub} /> 1
+                <Image src={bathtub} alt='img' /> 1
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-1 mb-2">
                 {" "}
-                <Image src={tape} /> 60 m&sup2;
+                <Image src={tape} alt='tape' /> 60 m&sup2;
               </span>
             </div>
           </motion.div>
@@ -157,7 +157,7 @@ Illinois 85486
             </span>
             <span onClick={heartClick3} className=" cursor-pointer absolute right-2 top-2 inline-block bg-white rounded-lg pt-2 px-2 text-sm font-semibold ">
               {" "}
-              {like3?<Image src={heartr}/>:<Image src={heart}/>}
+              {like3?<Image src={heartr} alt='img' />:<Image src={heart} alt='img' />}
             </span>
             <div className="px-6 py-4">
               <div className={`font-bold text-lg mb-2 ${darkMode?'text-[#f9f9fa]':'text-black'} `}>$ 622 000</div>
@@ -168,15 +168,15 @@ Illinois 85486
             <div className="lg:px-5 lg:pt-4 lg:pb-2 lg:ml-2 ml-20 ">
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2">
                 {" "}
-                <Image src={bed} /> 2
+                <Image src={bed} alt='bed' /> 2
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2">
                 {" "}
-                <Image src={bathtub} /> 1
+                <Image src={bathtub} alt='img' /> 1
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-1 mb-2">
                 {" "}
-                <Image src={tape} /> 60 m&sup2;
+                <Image src={tape} alt='tape' /> 60 m&sup2;
               </span>
             </div>
           </motion.div>
@@ -198,7 +198,7 @@ Illinois 85486
                 </span>
                 <span onClick={heartClick}  className=" cursor-pointer absolute right-2 top-2 inline-block bg-white rounded-lg pt-2 px-2 text-sm font-semibold ">
                   {" "}
-                  {like?<Image src={heartr}/>:<Image src={heart}/>}
+                  {like?<Image src={heartr} alt='img' />:<Image src={heart} alt='img' />}
                 </span>
                 <div className="px-6 py-4">
                   <div className={`font-bold text-lg mb-2 ${darkMode?'text-[#f9f9fa]':'text-black'} `}>
@@ -215,15 +215,15 @@ Illinois 85486
                 <div className="lg:px-5 lg:pt-4 lg:pb-2 lg:ml-2 ml-20">
                   <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2 ">
                     {" "}
-                    <Image src={bed} /> 2
+                    <Image src={bed} alt='bed' /> 2
                   </span>
                   <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-2 mb-2">
                     {" "}
-                    <Image src={bathtub} /> 1
+                    <Image src={bathtub} alt='img' /> 1
                   </span>
                   <span className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold  mr-1 mb-2">
                     {" "}
-                    <Image src={tape} /> 60 m&sup2;
+                    <Image src={tape} alt='tape' /> 60 m&sup2;
                   </span>
                 </div>
               </motion.div>
@@ -265,15 +265,15 @@ Illinois 85486
         Illinois 85486</p>
         <span className="inline-block bg-gray-200 rounded-lg px-3 pt-1 text-sm font-semibold  m-5">
                 {" "}
-                <Image src={bed} /> 2
+                <Image src={bed} alt='bed' /> 2
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 pt-1 text-sm font-semibold  mr-5 mb-2">
                 {" "}
-                <Image src={bathtub} /> 1
+                <Image src={bathtub} alt='img' /> 1
               </span>
               <span className="inline-block bg-gray-200 rounded-lg px-3 pt-1 text-sm font-semibold  mr-2 mb-2">
                 {" "}
-                <Image src={tape} /> 60 m&sup2;
+                <Image src={tape} alt='tape' /> 60 m&sup2;
               </span>
       </div>
       
